@@ -1,0 +1,35 @@
+from fastapi import WebSocket
+
+
+class ConnectionManager:
+    def __init__(self):
+        self.active_connections = []
+
+    async def connect(self, websocket: WebSocket):
+        await websocket.accept()
+        self.active_connections.append(websocket)
+
+    def disconnect(self, websocket: WebSocket):
+        if websocket in self.active_connections:
+            self.active_connections.remove(websocket)
+
+    async def broadcast(self, message: dict):
+        for connection in self.active_connections:
+            await connection.send_json(message)
+
+
+manager = ConnectionManager()
+
+async def broadcast_event(event):
+    await manager.broadcast({
+        "type": "DISASTER_EVENT",
+        "event": {
+            "id": event.id,
+            "disaster_type": event.disaster_type,
+            "location": event.location,
+            "severity": event.severity,
+            "confidence": event.confidence,
+            "report_count": event.report_count,
+            "status": event.status
+        }
+    })

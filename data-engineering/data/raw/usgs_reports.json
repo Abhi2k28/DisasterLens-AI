@@ -1,0 +1,46 @@
+[
+  {
+    "source": "usgs",
+    "source_id": "ci41531032",
+    "text": "Earthquake detected near 7 km SSW of Idyllwild, CA",
+    "magnitude": 0.14,
+    "timestamp": "2026-08-20T09:09:06.950000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41531032",
+    "location": "7 km SSW of Idyllwild, CA",
+    "latitude": 33.675,
+    "longitude": -116.739666666667
+  },
+  {
+    "source": "usgs",
+    "source_id": "nc75421692",
+    "text": "Earthquake detected near 15 km NNE of Chualar, CA",
+    "magnitude": 1.33,
+    "timestamp": "2026-08-20T09:01:49.240000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75421692",
+    "location": "15 km NNE of Chualar, CA",
+    "latitude": 36.6865005493164,
+    "longitude": -121.436668395996
+  },
+  {
+    "source": "usgs",
+    "source_id": "us6000tm2t",
+    "text": "Earthquake detected near 63 km NNE of Ruteng, Indonesia",
+    "magnitude": 4.8,
+    "timestamp": "2026-08-20T08:53:58.760000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm2t",
+    "location": "63 km NNE of Ruteng, Indonesia",
+    "latitude": -8.0659,
+    "longitude": 120.656
+  },
+  {
+    "source": "usgs",
+    "source_id": "aka2026qlifat",
+    "text": "Earthquake detected near 36 km W of Petersville, Alaska",
+    "magnitude": 1.6,
+    "timestamp": "2026-08-20T08:34:05.462000+00:00",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qlifat",
+    "location": "36 km W of Petersville, Alaska",
+    "latitude": 62.445,
+    "longitude": -151.47
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "source": "reddit",
+    "source_id": "reddit_001",
+    "text": "Heavy flooding reported near Vijayawada",
+    "timestamp": "2026-08-20T10:30:00Z",
+    "url": "https://example.com/report1",
+    "location": "Vijayawada",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "source": "news",
+    "source_id": "news_001",
+    "text": "Water entered several houses in Vijayawada",
+    "timestamp": "2026-08-20T10:32:00Z",
+    "url": "https://example.com/report2",
+    "location": "Vijayawada",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "source": "reddit",
+    "source_id": "reddit_002",
+    "text": "Heavy flooding reported near Vijayawada",
+    "timestamp": "2026-08-20T10:35:00Z",
+    "url": "https://example.com/report3",
+    "location": "Vijayawada",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "source": "news",
+    "source_id": "news_002",
+    "text": "Earthquake felt in Delhi",
+    "timestamp": "2026-08-20T10:40:00Z",
+    "url": "https://example.com/report4",
+    "location": "Delhi",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "source": "demo",
+    "source_id": "demo_001",
+    "text": "Beautiful weather today in Hyderabad",
+    "timestamp": "2026-08-20T10:45:00Z",
+    "url": "https://example.com/report5",
+    "location": "Hyderabad",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "source": "reddit",
+    "source_id": "reddit_003",
+    "text": "OMG!!! FLOOOODING!!! near Vijayawada https://example.com/flood",
+    "timestamp": "2026-08-20T10:50:00Z",
+    "url": "https://example.com/flood",
+    "location": "Vijayawada",
+    "latitude": null,
+    "longitude": null
+  }
+    ,
+{
+  "source": "demo",
+  "source_id": "demo_invalid_001",
+  "text": "",
+  "timestamp": "2026-08-20T11:00:00Z",
+  "url": null,
+  "location": null,
+  "latitude": null,
+  "longitude": null
+}
+]
